@@ -1,6 +1,6 @@
 // Janelle Salisbury
 // MiU 
-// Project 1
+// Project 2
 // 1109
 
 
