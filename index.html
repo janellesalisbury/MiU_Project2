@@ -16,30 +16,33 @@
 	  <meta http-equiv="cleartype" content="on">
 	  
       <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.css" />
+      
       <script src="js/libs/modernizr.custom.min.js"></script>
     </head>
     <body>
-    <div id = "container">
-       <div id = "header">
-             <fieldset>
-                <legend>Add Parts Now</legend>
-                <div class = "margin" id = "main">
-                   <img src = "images/mjauto2.png">
-                   <p>Add parts that need to be purchased for your vehicle and keep a detailed listing.</p>
-                   <td>Search:<input type = "text" name = "search" size = "50"> <input type = "submit" value = "Search"></td><br>
-                   <img src = "images/car2.png" width = 400 ><br>
-                   <dt><a href = "additem.html"><input class ="cta" input type = "button" value = "Get great parts here!"></a></dt><br>
-             <fieldset>
-                <legend>Browse Parts</legend>
-                   <dt><a class = "browse" href = "additem.html"><input class = "cta" input type = "button" value = "Brakes"</a></dt>
-                   <dt><a class = "browse" href = "additem.html"><input class = "cta" input type = "button" value = "Engine"</a></dt>
-                   <dt><a class = "browse" href = "additem.html"><input class = "cta" input type = "button" value = "Body"</a></dt>
-                   <dt><a class = "browse" href = "additem.html"><input class = "cta" input type = "button" value = "Lighting"</a></dt>
-                   <dt><a class = "browse" href = "additem.html"><input class = "cta" input type = "button" value = "Interior"</a></dt>
-            </fieldset>
-                </div>
-            </fieldset>
-     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.css" />
+        <div data-role = "page">
+            <div data-role = "header" data-position ="fixed">
+                <h1>Car Parts I Need</h1>
+            </div>
+        <img src ="Image/mjauto2.png"> 
+        <td>Search:<input type = "text" name = "search" size = "50"> <input type = "submit" value = "Search"></td><br>
+        <div data-role = "content">
+                <p>Add parts need for your vehicle and keep a detailed listing.</p>
+        
+        </div>
+       
+        <div data-role = "footer" data-position = "fixed">
+                <h4>Footer</h4>
+        
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
      <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
      <script src="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.js"></script>
      <script type = "text/javascript" src = "js/main.js"></script>
